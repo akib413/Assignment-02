@@ -154,7 +154,7 @@ hr {
 .choose-techwave{
     width: 100%;
     background-color: #230E3D;
-    padding: 120px 200px;
+    padding: 120px 170px;
 }
 .why-choose-techwave , .featured-heading{
     font-size: 48px;
@@ -240,7 +240,7 @@ img.card-img.excep {
     color: #FFFFFF;
 }
 .alex-kumar{
-    width: 1200px;
+    width: 1190px;
     height: 280px;
     display: flex;
     margin: auto;
@@ -311,7 +311,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: 32px;
+    margin-top: 23px;
 }
 .footer-icon{
     display: flex;
