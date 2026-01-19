@@ -111,3 +111,222 @@ a{
     background: transparent;
     border: 1px solid #00FF88;
 }
+.about-container{
+    background-color: #1A0B2E;
+}
+.about-podcast{
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px 200px 80px 200px;
+}
+.podcast-heading{
+    font-size: 48px;
+    font-weight: bold;
+}
+.podcast-description{
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 80%;
+}
+hr {
+    width: 78%;
+    margin: auto;
+    opacity: 10%;
+}
+.techwave-all-data{
+    padding: 80px 200px 120px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.statistics{
+    text-align: center;
+}
+.number{
+    color: #00FF88;
+    font-size: 48px;
+}
+.stat-title{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+.choose-techwave{
+    width: 100%;
+    background-color: #230E3D;
+    padding: 120px 200px;
+}
+.why-choose-techwave , .featured-heading{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.choose-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 225px) 275px;
+    gap: 30px;
+}
+.card{
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+}
+.audio{
+    grid-row: span 2;
+}
+.friendly{
+    grid-column: span 2;
+}
+.interviews{
+    grid-column: span 2;
+}
+img.card-img.excep {
+    margin-top: 75px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.card-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 60%;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.featured-container{
+    padding: 120px 170px;
+    background-color: #1A0B2E;
+}
+.all-featured-episode{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.video-title-description{
+    padding: 24px;
+    background-color: #250D44;
+}
+.video-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.video-description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin: 12px 0;
+}
+.video-duration{
+    color: #00FF88;
+    font-weight: normal;
+}
+.meet-container{
+    background-color: #1A0B2E;
+        padding-bottom: 120px;
+}
+.meet-heading{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+.alex-kumar{
+    width: 1200px;
+    height: 280px;
+    display: flex;
+    margin: auto;
+    background: #250D44;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 40px;
+}
+.alex-bio{
+    margin-left: 24px;
+}
+.alex-name{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+}
+.alex-information{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin: 16px 0;
+    line-height: 24px;
+}
+.all-social-media-icon{
+    display: flex;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 50%;
+    position: relative;
+    margin-right: 8px;
+}
+img.social-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+img.alex-kumar-img {
+    padding: 40px 0 40px 40px;
+}
+footer{
+    background: url(../assets/footer-bg.png);
+    width: 100%;
+    height: 412px;
+    background-size: cover;
+    background-position: center;
+}
+.techwave-footer{
+    padding: 120px;
+}
+.footer-logo{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.footer-wave{
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.footer-all-icon{
+    width: 545px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 32px;
+}
+.footer-icon{
+    display: flex;
+    color: white;
+    opacity: 60%;
+    font-size: 16px;
+    font-weight: 500;
+}
+img.footer-social-icon {
+    margin-right: 5px;
+}
+.copyright{
+    font-size: 16px;
+    color: white;
+    opacity: 60%;
+    text-align: center;
+    margin-top: 32px;
+}
